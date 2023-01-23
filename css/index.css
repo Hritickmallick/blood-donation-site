@@ -1,0 +1,2105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Jost, Roboto, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
+
+.section-header {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.header-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-contact {
+    display: flex;
+    width: 70%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-social-media{
+    display: flex;
+    width: 30%;
+    background-color: #ea062b;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-social-media::after{
+    content: "";
+    background-color: #ea062b;
+    width:2000px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 46px;
+}
+
+.contact-phone {
+    display: flex;
+    width: 33.33%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.contact-email {
+    display: flex;
+    width: 33.33%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.contact-location {
+    display: flex;
+    width: 33.33%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 8px;
+    font-family: Jost;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-icon {
+    border-right: 1px solid #fff;
+    padding-right: 8px;
+
+}
+
+.social-media-icons {
+    padding: 10px 10px;
+}
+
+.fa-brands {
+    padding: 5px;
+    background-color: #fff;
+    color: #ea062b;
+    margin: 0px 2px;
+}
+
+.fa-facebook-f {
+    width: 25px;
+    text-align: center;
+}
+
+.navigation-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    width: 50%;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+    background-color: #ea062b;
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: #ea062b;
+    width: 2000px;
+    height: 88px;
+    right: 173px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo-link {
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list-links {
+    color: #000;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.nav-list-links:hover {
+    color: #ea062b;
+}
+
+.nav-list-items:hover {
+    color: #ea062b;
+}
+
+.section-banner {
+    background-image: url(../images/hero-five.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.banner-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.banner-video {
+    font-size: 18px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+
+.fa-play {
+    color: #fff;
+    font-size: 30px;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    width: 53px;
+}
+
+.banner-tag-line {
+    color: red;
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.banner-heading {
+    font-size: 22px;
+}
+
+.banner-link {
+    padding: 10px;
+    background-color: red;
+    width: 140px;
+    text-align: center;
+}
+
+.banner-a {
+    color: #fff;
+}
+
+.banner-p {
+    padding-left: 8px;
+}
+
+.section-content {
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+.content-col {
+    display: flex;
+}
+
+.content-col-row {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: #fff;
+    padding: 25px;
+}
+
+.content-col-register {
+    background-color: #000;
+}
+
+.content-col-donate {
+    background-color: #ea062b;
+}
+
+.content-text {
+    width: 90%;
+}
+
+.content-icon {
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.content-p {
+    padding: 0px;
+}
+
+.fa-arrow-right-to-bracket {
+    color: #fff;
+}
+
+.section-overview {
+    background-color: #f4eeee8c;
+    margin-bottom: 60px;
+}
+
+.overview-col {
+    display: flex;
+}
+
+.overview-col-row {
+    width: 33.33%;
+    background-color: #fff;
+    margin: 10px 10px;
+}
+
+.overview-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.overview-img {
+    width: 100%;
+}
+
+.overview-logo {
+    background-color: black;
+    width: 20%;
+    margin-top: -30px;
+    padding: 15px;
+    height: 80px;
+}
+
+
+.overview-content {
+    text-align: center;
+    margin: 20px;
+}
+
+.overview-a {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+    display: block;
+}
+
+.overview-col-row:hover .overview-a {
+    background-color: #ea062b;
+}
+
+.overview-col-row:hover .overview-logo {
+    background-color: #ea062b;
+}
+
+.section-illustration {
+    margin: 50px 0px;
+}
+
+.illustration-col {
+    display: flex;
+}
+
+.illustration-col-row {
+    width: 50%;
+}
+
+.illustration-col-row-2 {
+    margin: auto;
+}
+
+.facilities-list {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+.illustration-span {
+    font-weight: 500;
+    color: #ea062b;
+}
+
+.illustration-h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+.illustration-facilities {
+    padding: 10px 0px;
+}
+
+.illustration-p {
+    color: gray;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.facilities-link {
+    padding-left: 5px;
+    color: #000;
+    font-weight: 400;
+}
+
+.facilities-list-item {
+    padding: 5px 0px;
+}
+
+.illustration-link {
+    background-color: #ea062b;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.illustration-a {
+    color: #fff;
+}
+
+.section-achievments {
+    background: url(../images/counter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    width: 100%;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.achievements-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section-achievments::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.achievements-row-col {
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+}
+
+.achievements-p-number {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.achievements-p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section-services {
+    margin: 50px 0px;
+}
+
+.service-header {
+    text-align: center;
+}
+
+.service-col {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.service-col-row {
+    width: 50%;
+    margin: auto;
+}
+
+.second-col-row {
+    margin-right: 50px;
+}
+
+.service-images {
+    max-width: 100%;
+}
+
+.service-p-number {
+    color: lightgray;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.service-h3 {
+    margin: 5px 0px;
+
+}
+
+.service-p {
+    color: gray;
+}
+
+.service-link-1 {
+    padding: 12px 40px;
+    background-color: #ea062b;
+    display: inline-block;
+    margin: 15px 0px;
+}
+
+.service-link-2 {
+    padding: 12px 40px;
+    background-color: #ea062b;
+    display: inline-block;
+    margin: 15px 0px;
+}
+
+.service-a {
+    color: #fff;
+}
+
+.service-header-p {
+    color: #ea062b;
+    font-weight: 500;
+}
+
+.service-header-h4 {
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.section-donation-number {
+    background: url(../images/call-now-bg.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    padding: 100px;
+    background-size: cover;
+}
+
+.section-donation-number::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0px;
+    left: 0px;
+}
+
+.main-content {
+    color: #fff;
+    position: relative;
+    border: 10px solid #ea062b;
+    padding: 40px;
+    text-align: center;
+}
+
+.donate-phone-icon {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    background-color: #ea062b;
+    padding: 17px;
+    width: 6%;
+    font-size: 30px;
+    transform: rotate(45deg);
+    top: -75px;
+    left: 0;
+}
+
+.donation-number-p {
+    font-weight: 500;
+    color: #fff;
+}
+
+.donation-number-loaction-p {
+    color: #fff;
+}
+
+.donation-number-span {
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+}
+
+.donation-number-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaction-icon {
+    padding-right: 8px;
+    color: #fff;
+}
+
+.donation-number-loaction-p::after {
+    content: "";
+    background-color: #fff;
+    width: 10px;
+    height: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.fa-message {
+    padding: 0px 8px;
+    color: #fff;
+}
+
+.section-campaign {
+    background-color: #f4eeee8c;
+    padding-bottom: 100px;
+}
+
+.campaign-header {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.campaign-col {
+    display: flex;
+}
+
+.campaign-col-row {
+    width: 25%;
+    width: 25%;
+    background: #fff;
+
+}
+
+
+.campaign-img {
+    width: 100%;
+    display: block;
+
+}
+
+.Campaign-content {
+    margin-right: 15px;
+    padding: 0px 10px;
+}
+
+.campaign-col-row-content {
+    padding: 74px 0px;
+    padding-left: 10px;
+}
+
+.fa-calendar-days {
+    color: #ea062b;
+    padding-right: 2px;
+}
+
+.calender-p {
+    display: inline-block;
+    color: gray;
+}
+
+.group-checking-p {
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: 500;
+    color: #ea062b;
+}
+
+.campaign-col-row-p {
+    color: gray;
+    padding-bottom: 12px;
+}
+
+.campaign-timings-location{
+    display: flex;
+}
+
+.location-p {
+    display: inline-block;
+    color: #000;
+}
+
+.timings-p {
+    display: inline-block;
+}
+
+.fa-clock {
+    color: #ea062b;
+}
+
+.campaign-location-icon {
+    color: #ea062b;
+    padding-left: 10px;
+}
+
+.campaign-header-p {
+    color: #ea062b;
+    font-weight: 500;
+}
+
+.campaign-header-h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.campaign-col-row-img {
+    position: relative;
+    background-color: #111;
+}
+
+.link-hover {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    display: none;
+    color: #fff;
+
+}
+
+.campaign-col-row-img:hover .link-hover {
+    display: block;
+}
+
+.campaign-col-row-img:hover .campaign-img {
+
+    opacity: 0.2;
+}
+
+.section-review {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f4eeee8c;
+}
+
+.review-header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.review-column{
+    display: flex;
+}
+
+.review-col {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    width: 33.33%;
+}
+
+.review-col-row {
+   
+    padding: 0px 5px;
+    margin: 0px 5px;
+    background-color: #fff;
+}
+
+.fa-star {
+    color: #ffd700;
+}
+
+.review-content {
+    padding: 20px 0px;
+}
+
+.review-h5 {
+    font-size: 40px;
+}
+
+.review-p {
+    color: #ea062b;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.name-designation {
+    display: inline-block;
+    transform: translate(10px, -10px);
+    padding: 5px 15px;
+}
+
+.section-blood-group {
+
+    background: url(../images/blood-donor-bg.png);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    padding: 150px;
+    position: relative;
+}
+
+.section-blood-group::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    opacity: 0.8;
+}
+
+.blood-group-header {
+    position: relative;
+    text-align: center;
+}
+
+.blood-group-logo {
+    text-align: center;
+    position: relative;
+}
+
+.blood-group-p {
+    color: #ea062b;
+    font-size: 20px;
+}
+
+.blood-group-h5 {
+    color: #fff;
+    font-size: 35px;
+    margin: 10px px;
+}
+
+.play-button {
+    background-color: #fff;
+    color: red;
+    border-radius: 50%;
+    width: 66px;
+    border: 2px solid;
+    padding: 15px;
+}
+
+.section-request-appointment {
+    background-color: #f4eeee8c;
+}
+
+.request-col-box-header {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.request-col {
+    display: flex;
+    position: relative;
+    margin-top: -60px;
+}
+
+.request-col-box {
+    width: 50%;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+
+
+.request-p {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.logo-content {
+    padding: 10px 0px;
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.logo-content-last {
+    border: none;
+}
+
+.fa-heart {
+    color: #ea062b;
+}
+
+.appointment-p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.form-name-number {
+    padding: 10px 0px;
+}
+
+#name {
+    width: 58%;
+    padding: 15px 0px;
+    background-color: #f1eeee8c;
+    color: gray;
+    border: none;
+}
+
+#phone-number {
+    width: 41%;
+    padding: 15px 0px;
+    background-color: #f1eeee8c;
+    color: gray;
+    border: none;
+}
+
+#email-id {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px 0px;
+    background-color: #f1eeee8c;
+    color: gray;
+    border: none;
+}
+
+#donation-type {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px 0px;
+    background-color: #f1eeee8c;
+    color: gray;
+}
+
+#message {
+    width: 100%;
+    margin: 15px 0px;
+    height: 200px;
+    background-color: #f1eeee8c;
+    color: gray;
+    border: none;
+}
+
+.button-submit {
+    display: inline-block;
+    padding: 15px;
+    width: 25%;
+    background-color: #ea062b;
+    color: #fff;
+    border: none;
+}
+
+.service-volunteers {
+    background-color: #f4eeee8c;
+    padding: 70px 0px;
+}
+
+.volunteers-col {
+    display: flex;
+    padding-bottom: 60px;
+
+}
+
+.volunteers-header {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.header-p {
+    color: #ea062b;
+    font-size: 20px;
+}
+
+.volunteers-h4 {
+    font-size: 30px;
+}
+
+.volunteers-col-box {
+    width: 33.33%;
+    position: relative;
+    margin: 0px 10px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.founder-images {
+    text-align: center;
+    background-color: #111;
+}
+
+.founder-imgs {
+    width: 100%;
+    display: block;
+
+}
+
+.volunteers-social-icons {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    display: none;
+}
+
+.logo-rounded-corners {
+    border-radius: 15px 0 0 15px;
+    padding: 10px;
+    width: 35px;
+}
+
+.social-icons {
+    padding: 10px;
+    width: 35px;
+}
+
+.founder-images:hover .volunteers-social-icons {
+    display: block;
+}
+
+.founder-images:hover .founder-imgs {
+    opacity: 0.4;
+}
+
+.founder-name-p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.designation-p {
+    text-align: center;
+    color: gray;
+}
+
+.volunteers-social-icons>.fa-pinterest {
+    border-radius: 0 15px 15px 0;
+}
+
+.section-news-updates {
+    background-color: #f1eeee8c;
+}
+
+.news-col {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.news-col-box {
+    margin: 0px 10px;
+    background-color: #fff;
+}
+
+.news-time-comment>p {
+    display: inline-block;
+    padding: 0px 5px;
+    color: #ea062b;
+}
+
+.news-time-comment>a .fa-comments {
+    color: #ea062b;
+}
+
+.article-images {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.news-article {
+    padding: 10px 20px;
+}
+
+.news-time-comment {
+    padding: 10px 20px;
+}
+
+.news-link {
+    padding: 0px 20px;
+}
+
+.news-link>a {
+    color: #000;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.news-link>.fa-chevron-right {
+    margin-left: -10px;
+}
+
+.news-article>p {
+    color: gray;
+}
+
+.news-article>h5 {
+    font-size: 20px;
+}
+
+.news-header>h5 {
+    font-size: 30px;
+}
+
+.news-header>p {
+    color: #ea062b;
+    font-size: 20px;
+}
+
+.news-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-footer-head {
+    background-color: #ea062b;
+    padding: 70px 0px;
+}
+
+.footer-head-col {
+    display: flex;
+    align-items: center;
+}
+
+.footer-col-head-box-1 {
+    width: 70%;
+}
+
+.footer-head-col-box-1>h3 {
+    color: #fff;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.footer-head-col-box-1>p {
+    color: #fff;
+}
+
+.footer-head-col-box-2 {
+    width: 30%;
+    padding: 0px 60px;
+}
+
+.footer-head-col-box-2>a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 15px;
+    width: 85%;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-footer {
+    background-color: #000;
+}
+
+.footer-col-1 {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.footer-col-box-1 {
+    width: 30%;
+    padding: 50px 0px;
+    padding-right: 12px;
+    padding-left: 20px;
+}
+
+.footer-col-box-2 {
+    width: 20%;
+    padding: 50px 15px;
+}
+
+.footer-col-box-1>p {
+    color: #fff;
+
+}
+
+.footer-col-box-2>p {
+    color: #fff;
+}
+
+.chevron-color {
+    color: #ea062b;
+    margin-right: -10px;
+}
+
+.footer-header-p {
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-header-list-item {
+    padding: 15px 0px;
+}
+
+.footer-header-list-item>a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+.footer-header-content {
+    padding: 15px 0px;
+}
+
+.footer-about-contact {
+    padding: 15px 0px;
+}
+
+.footer-about-contact>p {
+    color: #fff;
+}
+
+p>a {
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.latest-news-article {
+    display: flex;
+    padding: 10px 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.article-content {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.content-p {
+    font-size: 18px;
+}
+
+.date-p {
+    color: #ea062b;
+}
+
+.footer-col-2 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.footer-sub-col-box-1 {
+    color: #fff;
+    width: 50%;
+}
+
+.footer-sub-col-box-2 {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-sub-col-box-1>p {
+    padding: 15px 0px;
+}
+
+#your-email-id {
+    padding: 20px 10px;
+    background-color: #000;
+    border: 1px solid gray;
+    width: 70%;
+    color: #fff;
+    border-radius: 0;
+}
+
+.submit-button {
+    padding: 10px;
+    width: 20%;
+    margin-left: -135px;
+    border-radius: 0px;
+    background-color: #ea062b;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Jost';
+    font-size: 16px;
+}
+
+.footer-page-policy>a {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-social-media-icons>a>.fa-brands {
+    color: #fff;
+    background-color: #ea062b;
+    padding: 10px;
+}
+
+.footer-social-media-icons>a>.fa-facebook-f {
+    width: 36px;
+}
+
+.page-policy-a::after {
+    content: "/";
+    padding: 0px 10px;
+}
+
+.footer-page-policy {
+    padding: 10px 0px;
+}
+
+.section-footer-btm{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/*check 1024*/
+@media screen and (max-width: 1200px) {
+  .illustration-col-row-2{
+    padding: 0px 35px;
+  }
+
+  .illustration-cover-img{
+    max-width: 100%;
+  }
+
+  .service-col-row{
+    padding: 0px 20px;
+  }
+
+  .donate-phone-icon{
+    padding: 15px;
+    width: 8%;
+    transform: rotate(46deg);
+  }
+
+  .campaign-img{
+    height: 100%;
+  }
+
+  .campaign-location{
+    padding: 15px 0px;
+    margin: -10px;
+  }
+
+  .campaign-timings-location{
+    flex-direction: column;
+  }
+
+  .campaign-timings > p{
+    display: inline-block;
+  }
+
+  .footer-head-col-box-2{
+    width: 30%;
+    padding: 0px 12px;
+  }
+
+  .footer-sub-col-box-1{
+    padding: 0px 25px;
+  }
+
+  .submit-button{
+    border: none;
+    width: 27%;
+  }
+}
+
+/*check 768*/
+@media screen and (max-width: 992px) {
+  
+.header-contact{
+    padding: 5px;
+}
+
+.contact-phone{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.contact-icon{
+    border: none;
+    padding-right: 0px;
+    padding-bottom: 7px;
+}
+
+.contacts-link{
+    padding-left: 0px;
+}
+
+.contact-email{
+    padding-left: 0px;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.contact-location{
+    flex-direction: column;
+    padding: 0px;
+}
+
+.header-social-media > p{
+    padding: 0px 6px;
+}
+
+.social-media-icons{
+    padding: 0px;
+}
+
+.header-social-media::after{
+    height: 61px;
+}
+
+.nav-logo{
+    width: 30%;
+}
+
+.logo{
+    padding: 0px;
+    width: 70%;
+}
+
+.logo::before{
+    height: 58px;
+    right: 159px;
+}
+
+.nav-items{
+    width: 70%;
+}
+
+.section-banner{
+    background-size: contain;
+    height: 480px;
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+    padding: 26px;
+}
+
+.fa-play{
+    font-size: 20px;
+    background-color: #ea062b;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+
+.banner-heading{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.overview-logo{
+    width: 70px;
+    margin-top: -30px;
+    padding: 14px;
+    height: 60px;
+}
+
+.illustration-facilities{
+    display: flex;
+}
+
+.facilities-link{
+    padding-left: 1px;
+}
+
+.achievements-row-col{
+    padding: 0px;
+}
+
+.donate-phone-icon{
+    padding: 13px;
+    width: 12%;
+    transform: rotate(46deg);
+}
+
+.donation-number-span{
+    font-size: 35px;
+}
+
+.donation-number-location > .fa-message{
+    padding: 0px 10px;
+}
+
+.section-campaign{
+    padding-bottom: 0px;
+}
+
+.campaign-col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.campaign-col-row{
+    width: 50%;
+}
+
+.campaign-img{
+    max-width: 100%;
+}
+
+.Campaign-content{
+    margin-right: 0px;
+}
+
+#name{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#phone-number{
+    width: 100%;
+}
+
+.form-name-number{
+    padding: 0px;
+}
+
+.volunteers-social-icons{
+    top: 35%;
+    left: 13%;
+}
+
+.news-time-comment{
+    padding: 0px 2px;
+}
+
+.news-time-comment > p{
+    padding: 0px;
+}
+
+.section-footer-head{
+    padding: 50px 0px;
+}
+
+.footer-head-col-box-2 > a {
+    width: 100%;
+    padding: 6px;
+}
+
+#your-email-id{
+    width: 90%;
+    padding: 20px 10px;
+}
+
+.submit-button{
+    width: 27%;
+    margin-left: -100px;
+}
+
+.service-volunteers{
+    padding: 0px;
+}
+
+.play-button{
+    color: #fff;
+}
+
+.footer-col-box-2{
+    padding: 15px 3px;
+}
+
+.footer-col-box-1{
+    padding: 15px 5px;
+}
+
+.latest-news-article{
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.footer-about-contact > p > a{
+    padding: 0px;
+    padding-left: 5px;
+}
+
+.footer-header-list-item{
+    padding: 10px 0px;
+}
+}
+
+/*check 568*/
+@media screen and (max-width: 767px) {
+
+.header-col{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-contact{
+    width: 100%;
+    padding: 20px 5px;
+}
+
+.contact-phone{
+    flex-direction: row;
+    width: 30%;
+}
+
+.contact-email{
+    flex-direction: row;
+    padding-left: 0px;
+    width: 30%;
+}
+
+.contact-location{
+    flex-direction: row;
+    width: 40%;
+    padding-left: 35px;
+}
+
+.contact-icon{
+    padding-bottom: 0px;
+    padding: 0px 5px;
+}
+
+.header-social-media{
+    width: 100%;
+    padding: 20px 0px;
+    margin-left: -5px;
+}
+
+.header-social-media::after{
+    height: 66px;
+    left: 90%;
+}
+
+.section-navigation-bar{
+    padding-top: 15px;
+}
+
+.navigation-col{
+    flex-direction: column;
+}
+
+.logo::before{
+    display: none;
+}
+
+.nav-items{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.nav-list{
+    padding: 0px 20px;
+}
+
+.nav-list-items{
+    padding: 20px 0;
+}
+
+.nav-logo{
+    width: 40%;
+    margin: 0px 40px;
+}
+
+.section-banner{
+    height: auto;
+}
+
+.banner-content{
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.banner-link{
+    width: 20%;
+    padding: 5px;
+}
+
+.banner-tag-line{
+    font-size: 20px;
+    padding:5px 0px;
+}
+
+.banner-heading{
+    font-size: 14px;
+}
+
+.section-content{
+    margin-top: 20px;
+}
+
+.content-col{
+    flex-direction: column;
+}
+
+.content-col-row{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.overview-col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview-col-row{
+    width: 50%;
+}
+
+.illustration-col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration-col-row{
+    width: 100%;
+}
+
+.illustration-col-row-2{
+    padding-top: 20px;
+}
+
+.facilities-list-item > .fa-chevron-right{
+    padding: 0px 5px;
+}
+
+.section-achievments{
+    padding: 20px 2px;
+}
+
+.achievements-p-number{
+    font-size: 16px;
+}
+
+.achievements-p{
+    font-size: 14px;
+}
+
+.section-services{
+    margin: 30px 0px;
+}
+
+.service-col{
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-col-row{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.section-donation-number{
+    padding: 50px;
+}
+
+.main-content{
+    padding: 0px;
+}
+
+.donate-phone-icon{
+    top: -34px;
+}
+
+.donation-number-span{
+    font-size: 25px;
+}
+
+.review-col-row-2{
+    display: flex;
+    align-items: center;
+}
+
+.name-p{
+    font-weight: 700;
+}
+
+.review-header{
+    padding-bottom: 0px;
+}
+
+.section-review{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.request-col{
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-col-box{
+    width: 100%;
+}
+
+.volunteers-col{
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.volunteers-col-box{
+    width: 50%;
+}
+
+.volunteers-social-icons{
+    top: 38%;
+    left: 20%;
+}
+
+.section-blood-group{
+    background-size: contain;
+    padding: 40px;
+}
+
+.blood-group-header{
+    text-align: left;
+}
+
+.blood-group-logo{
+    text-align: left;
+}
+
+.blood-group-header{
+    margin-top: -30px;
+}
+
+.blood-group-logo{
+    margin-top: 5px;
+}
+
+.blood-group-p{
+    font-size: 16px;
+}
+
+.blood-group-h5{
+    font-size: 19px;
+}
+
+.play-button{
+    width: 5%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.news-col{
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.news-col-box{
+    max-width: 100%;
+    margin: 10px 20px;
+}
+
+.article-images{
+    max-width: 100%;
+    margin: auto;
+}
+
+.news-time-comment{
+    padding: 0px 20px;
+}
+
+.section-footer-head{
+    padding: 15px 0px;
+}
+
+.footer-head-col{
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.footer-head-col-box-2{
+    padding: 15px 0px;
+}
+
+.footer-col-1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-col-box-1{
+    width: 50%;
+}
+
+.footer-col-box-2{
+    padding: 0px;
+    width: 50%;
+}
+
+.footer-header-p{
+    padding-bottom: 0px;
+}
+
+.footer-col-2{
+    flex-direction: column;
+}
+
+.footer-sub-col-box-1{
+    padding: 0px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.footer-sub-col-box-2{
+    width: 100%;
+}
+
+.submit-button{
+    margin-left: -117px;
+}
+
+}
+
+/*check 375*/
+@media screen and (max-width: 567px) {
+  
+.section-header{
+    width: 100%;
+}
+
+.header-contact{
+    padding: 15px 0px;
+}
+
+.contact-phone{
+    flex-direction: column;
+    width: 30%;
+}
+
+.contact-email{
+    flex-direction: column;
+    width: 30%;
+}
+
+.contact-location{
+    flex-direction: column;
+    padding-left: 0;
+    width: 33.33%;
+}
+
+.contact-icon{
+    font-size: 10px;
+    padding: 5px 0px;
+}
+
+.contacts-link{
+    font-size: 10px;
+}
+
+.nav-items{
+    width: 100%;
+    padding: 0px;
+}
+
+.nav-list{
+    width: 100%;
+    padding: 0px;
+}
+
+.nav-list-items > .fa-chevron-down{
+    font-size: 9px;
+}
+
+.nav-list-links{
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.section-banner{
+    width: 100%;
+    padding: 19px;
+}
+
+.banner-content{
+   padding: 0px;
+}
+
+.banner-heading{
+    font-size: 9px;
+}
+
+.banner-tag-line{
+    font-size: 18px;
+}
+
+.fa-play{
+    font-size: 10px;
+    padding: 5px;
+    width: 21px;
+}
+
+.banner-link{
+    width: 12%;
+    padding: 0px;
+    font-size: 8px;
+}
+
+.content-col-row{
+    width: 100%;
+}
+
+.overview-col-row{
+    width: 100%;
+}
+
+.overview-img{
+    max-width: 100%;
+}
+
+.facilities-list{
+    margin-right: 16px;
+}
+
+.section-achievments{
+    width: 100%;
+}
+
+.achievements-row-col > img{
+    width: 25%;
+}
+
+.achievements-p-number{
+    font-size: 16px;
+}
+
+.achievements-p{
+    font-size: 16px;
+}
+
+.section-donation-number{
+    width: 100%;
+}
+
+.donation-number-location{
+    font-size: 12px;
+}
+
+.main-content{
+    width: 127%;
+    margin-left: -44px;
+}
+
+.donate-phone-icon{
+    width: 15%;
+    padding: 9px;
+}
+
+.campaign-col-row-img{
+    width: 80%;
+}
+
+.campaign-col-row-p{
+    font-size: 13px;
+}
+
+.Campaign-content{
+    width: 100%;
+}
+
+.review-header > h5{
+    font-size: 20px;
+}
+
+.review-content{
+    font-size: 12px;
+}
+
+.section-blood-group{
+    width: 100%;
+    padding: 7px 0px;
+}
+
+.blood-group-header{
+    margin-top: -7px;
+}
+
+.volunteers-col-box{
+    width: 100%;
+}
+
+.logo-content{
+    font-size: 16px;
+    width: 90%;
+}
+
+.section-footer-head{
+    width: 100%;
+}
+
+.section-footer{
+    width: 100%;
+}
+
+.footer-col-box-1{
+    width: 100%;
+    margin-left: 12px;
+}
+
+.footer-col-box-2{
+    width: 100%;
+    margin-left: 12px;
+}
+
+.section-footer-btm{
+    width: 100%;
+}
+
+.submit-button{
+    margin-left: -92px;
+    width: 32%;
+}
+
+.review-column{
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-col{
+    width: 100%;
+}
+
+.review-h5{
+    font-size: 28px;
+}
+
+.footer-head-col-box-1{
+    width: 90%;
+}
+
+}
